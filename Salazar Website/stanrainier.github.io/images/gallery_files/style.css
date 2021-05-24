@@ -1,0 +1,130 @@
+body{
+	margin: 0 auto !important;
+	font-family:Century Gothic;
+	background: url('https://wallpapercave.com/wp/wp7842857.jpg') no-repeat center center / cover;
+}
+* {
+  box-sizing: border-box;
+}
+
+img {
+	border-radius: 50%;
+    border: #1b252e  15px solid;
+    padding: 10px;
+
+}
+h1 {
+	color: white;
+	text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+.div {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.header__wrapper:after {
+  content: "";
+  display: table; 
+  clear: both;
+}
+/* ================  Header  =====================*/
+.header__wrapper {
+	padding: 20px;
+    color: white;
+    background: #1b252e;
+}
+.header__left {
+  float: left;
+  width: 30%;
+  text-align: center
+}
+.header__left span {
+  font-size: 26px;
+}
+
+.header__right {
+  float: left;
+  width: 60%;
+  text-align: center
+}
+.header__right a {
+	text-decoration: none;
+	color: white;	
+    padding: 0 20px;
+}
+
+.header__right a:hover{
+    color: #e07f3b;
+    font-weight: 600;
+    font-size: 26px;
+    transition: 1s;
+	text-shadow: -1px 0 white, 0 2px white, 2px 0 white, 0 -1px white;
+}
+/* ================ End Headers  =====================*/
+/* ================ Content  =====================*/
+.content__wrapper:after {
+  content: "";
+  display: table; 
+  clear: both;
+}
+.content__wrapper{
+    padding: 50px 134px;
+}
+
+.content-p {
+  float: left;
+  width: 50%;
+  text-align: left;    
+  padding: 62px;
+}
+.p span{
+    color: white;
+    font-size: 22px;    
+	text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+.pic {
+ 	text-align: center;
+}
+.second-picture{
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.second-content{
+  float: left;	
+  width: 50%;
+}
+.scripted {
+	font-family: 'Dancing Script', cursive !important;
+	font-size: 36px !important;
+}
+/* ================ EndContent  =====================*/
+/* ================ Educ Css  =====================*/
+.banner {
+	width: 100%;
+	text-align: center;
+}
+.banner-text{
+    color: #e07f3b;
+    font-weight: 600;    
+    font-size: 245px;;
+    transition: 1s;
+	text-shadow: -1px 0 white, 0 2px white, 2px 0 white, 0 -1px white;
+}
+.banner-subtext{
+	background: white;
+    border-radius: 43%;
+    padding: 12px;
+    border: 5px solid #1c1f26;
+    margin: 3px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.sampleme{
+	background: white;
+    height: 100%; /*remove this*/
+    padding: 20px;
+    margin: 200px;
+}
+/* ================ End Educ Css  =====================*/

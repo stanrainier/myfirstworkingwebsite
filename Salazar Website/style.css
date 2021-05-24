@@ -1,0 +1,358 @@
+body{
+	margin: 0 auto !important;
+	font-family:Century Gothic;
+	background: url('https://wallpapercave.com/wp/wp7842857.jpg') no-repeat center center / cover;
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15 100;
+  height: 50px;
+  background-color: #1b181b;
+  color: white;
+}
+.socialFooter {
+    position: absolute;
+    bottom: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.homePics {
+	border-radius: 50%;
+  border: #1b252e  15px solid;
+  padding: 10px;
+  width: 300;
+  height: 300;
+}
+h1 {
+	color: white;
+	text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+h2 {
+	font-family: "Verdana";
+	color: black;
+	font-size: 44px;
+}
+h3 {
+  color: white;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+  font-size: 50px;
+  }
+
+
+p
+.div {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.header__wrapper:after {
+  content: "";
+  display: table; 
+  clear: both;
+}
+/* ================  Header  =====================*/
+.header__wrapper {
+	padding: 20px;
+  color: white;
+  width: 100%;
+  background: #1b252e;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.header__left {
+  float: left;
+  width: 30%;
+  text-align: center
+}
+.header__left span {
+  font-size: 26px;
+}
+
+.header__right {
+  float: left;
+  width: 60%;
+  text-align: center
+}
+.header__right a {
+	text-decoration: none;
+	color: white;	
+    padding: 0 20px;
+}
+
+.header__right a:hover{
+    color: #e07f3b;
+    font-weight: 600;
+    font-size: 26px;
+    transition: 1s;
+	text-shadow: -1px 0 white, 0 2px white, 2px 0 white, 0 -1px white;
+}
+/* ================ End Headers  =====================*/
+/* ================ Content  =====================*/
+.content__wrapper:after {
+  content: "";
+  display: table; 
+  clear: both;
+}
+.content__wrapper{
+    padding: 50px 134px;
+}
+
+.content-p {
+  float: left;
+  width: 50%;
+  text-align: left;    
+  padding: 62px;
+}
+.p span{
+    color: white;
+    font-size: 22px;    
+	text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+.pic {
+ 	text-align: center;
+}
+.second-picture{
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.second-content{
+  float: left;	
+  width: 50%;
+}
+.scripted {
+	font-family: 'Dancing Script', cursive !important;
+	font-size: 36px !important;
+}
+/* ================ EndContent  =====================*/
+/* ================ Educ Css  =====================*/
+.banner {
+	width: 100%;
+	text-align: center;
+}
+.banner-text{
+    color: #e07f3b;
+    font-weight: 600;    
+    font-size: 245px;;
+    transition: 1s;
+	text-shadow: -1px 0 white, 0 2px white, 2px 0 white, 0 -1px white;
+}
+.banner-subtext{
+	background: white;
+    border-radius: 43%;
+    padding: 12px;
+    border: 5px solid #1c1f26;
+    margin: 3px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.sampleme{
+	background: white;
+    height: 100%; /*remove this*/
+    padding: 20px;
+    margin: 200px;
+}
+.educContent ul li{
+    color: white;
+    font-size: 22px;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+.educPics{
+    border: 40px solid #252a32;
+    width: 500px;
+    padding: 10px;
+    height: 500px;
+    border-radius: 7px;
+}
+/* ================ End Educ Css  =====================*/
+
+
+/*=========== Gallery ===========*/
+
+.galleryContainer{
+  max-width: 40%;
+  position: relative;
+  margin: auto;
+  align-content: center;
+  margin-bottom: 200;
+}
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: fixed;
+
+}
+
+
+.mySlides {
+ display: table;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/*=========== End Gallery CSS ===========*/
+
+/*=========== Contact CSS ===========*/
+
+.contactContainer{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  align-content: center;
+  padding: 100;
+  background: rgb(313,122,66, 0.7);
+  border-radius: 25px;
+
+}
+.contactContent{
+margin-bottom: 150;
+}
+/* ================  Social Media  =====================*/
+.SocMedContainer{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.SocMedContainer a {  
+    color: white;
+    font-size: 150;
+    padding: 150;       
+    margin: 9px;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    /*margin: 70;*/
+}
+
+.fa-twitter {
+  background: #55ACEE;
+ /* color: white;
+    font-size: 150;
+    padding: 150;*/
+    /*margin: 70;*/
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;/*
+    font-size: 150;
+    padding: 150;*/
+    /*margin: 70;*/
+}
+.fa-instagram {
+  background: #125688;
+ /*color: white;
+    font-size: 150;
+    padding: 150;*/
+    /*margin: 70;*/
+}
+.fa {
+    border-radius: 13px !important;
+}
